@@ -1,0 +1,15 @@
+﻿CREATE TABLE Link (
+  LinkId  UNIQUEIDENTIFIER NOT NULL PRIMARY KEY DEFAULT NEWID(),
+  ProjectId UNIQUEIDENTIFIER NOT NULL,
+  Link NVARCHAR(1500) NOT NULL,
+  AdvertisingCost INT NOT NULL,
+  [PublishingCost] INT NOT NULL,
+  [PublishingDate] date NOT NULL,
+  [MediaType] NVARCHAR(50) NOT NULL,
+  [MediaName] NVARCHAR(500) NOT NULL,
+  [Title] NVARCHAR(1000) NOT NULL,
+    [State] BIT NOT NULL DEFAULT 1
+) 
+GO;
+ALTER TABLE [dbo].[Link]
+ADD FOREIGN KEY (ProjectId) REFERENCES Project(ProjectId);

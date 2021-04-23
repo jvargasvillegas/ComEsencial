@@ -1,0 +1,122 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Operations Version="1.0" xmlns="http://schemas.microsoft.com/sqlserver/dac/Serialization/2012/02">
+  <Operation Name="Rename Refactor" Key="f5cc523f-b280-4c75-aa37-023658d043a8" ChangeDateTime="02/01/2021 22:21:29">
+    <Property Name="ElementName" Value="[dbo].[Link].[CostEditorial]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[Link]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="PublishingCost" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="d2a8ab37-d072-4f97-beaf-a2ff563b5ac6" ChangeDateTime="02/01/2021 22:21:36">
+    <Property Name="ElementName" Value="[dbo].[Link].[FechaPublicacion]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[Link]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="PublishingDate" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="37188142-9f66-4b53-97b2-93e672332281" ChangeDateTime="02/01/2021 22:21:54">
+    <Property Name="ElementName" Value="[dbo].[Link].[TipoMedio]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[Link]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="Media" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="7f3a0533-cedd-4500-8042-7ac1a8f7dbc4" ChangeDateTime="02/01/2021 22:22:21">
+    <Property Name="ElementName" Value="[dbo].[Link].[Titular]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[Link]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="Title" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="ae294bb1-e204-485b-8f60-9c9ef12b39a1" ChangeDateTime="02/01/2021 22:22:34">
+    <Property Name="ElementName" Value="[dbo].[Link].[Media]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[Link]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="MediaType" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="3b7487c1-e5c3-4c1f-8e2c-ba56a475d287" ChangeDateTime="02/01/2021 22:27:34">
+    <Property Name="ElementName" Value="[dbo].[Project].[ProjectTypeId]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[Project]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="ProjectTypeId" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="95bfcb61-f157-491a-a334-7e03f049e966" ChangeDateTime="02/02/2021 00:14:35">
+    <Property Name="ElementName" Value="[dbo].[Campaign].[Estrategia]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[Campaign]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="Strategy" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="6bdadf1a-db79-4807-9339-ff24dedb0bf9" ChangeDateTime="02/22/2021 01:42:11">
+    <Property Name="ElementName" Value="[dbo].[LogBook].[EventDescription]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[LogBook]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="CrudAction" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="f86772a2-77b6-4bd0-8f28-227dae63f532" ChangeDateTime="02/24/2021 05:32:10">
+    <Property Name="ElementName" Value="[dbo].[ClientsCampaign].[Id]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[ClientsCampaign]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="ClientsCampaignId" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="b7fcac9e-4b80-42e8-bd32-e319e255c446" ChangeDateTime="03/30/2021 04:35:29">
+    <Property Name="ElementName" Value="[dbo].[LogBook].[Entity]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[LogBook]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="Class" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="7699fb99-01b8-460d-8cb1-d495155c5a56" ChangeDateTime="03/30/2021 04:35:35">
+    <Property Name="ElementName" Value="[dbo].[LogBook].[EntityId]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[LogBook]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="Method" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="75f0f882-05a8-4561-9a0a-24cfa0df475a" ChangeDateTime="03/30/2021 04:35:44">
+    <Property Name="ElementName" Value="[dbo].[LogBook].[ExceptionTitle]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[LogBook]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="ExceptionMessage" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="b979adfd-8025-4521-93bb-8a02a9e1c718" ChangeDateTime="03/30/2021 04:37:15">
+    <Property Name="ElementName" Value="[dbo].[LogBook].[CrudAction]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[LogBook]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="Username" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="bb01d61e-9f8b-496f-8bd0-59e5e699be32" ChangeDateTime="03/30/2021 04:39:15">
+    <Property Name="ElementName" Value="[dbo].[Audit].[CrudAction]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[Audit]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="Username" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="43596519-ade1-4fb8-92f7-b01f39604433" ChangeDateTime="03/30/2021 04:39:21">
+    <Property Name="ElementName" Value="[dbo].[Audit].[Entity]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[Audit]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="Class" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="2041257b-4e76-46eb-84e7-3848c80261bd" ChangeDateTime="03/30/2021 04:39:28">
+    <Property Name="ElementName" Value="[dbo].[Audit].[EntityId]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[Audit]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="Method" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="6264d690-8cea-4cae-96fb-ed4059435650" ChangeDateTime="04/12/2021 05:06:32">
+    <Property Name="ElementName" Value="[dbo].[Campaign].[CampaignState]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[Campaign]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="State" />
+  </Operation>
+</Operations>
